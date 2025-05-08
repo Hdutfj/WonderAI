@@ -1,0 +1,21 @@
+[project]
+name = "reload"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Hdutfj", email = "156539429+Hdutfj@users.noreply.github.com" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "chainlit>=2.3.0",
+    "openai-agents>=0.0.14",
+    "pyngrok>=7.2.7",
+]
+
+[project.scripts]
+reload = "reload:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
